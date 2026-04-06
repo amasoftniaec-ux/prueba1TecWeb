@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NexCafe - El futuro del café y sus derivados. Bebidas, snacks y cosméticos innovadores con la mejor calidad premium.">
+    <title>NexCafe | La Evolución del Café</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons (Icons) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-glow"></div>
+    <div class="particles" id="particles-js"></div>
+
+    <!-- Header / Navbar -->
+    <header id="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <i class='bx bx-coffee-togo'></i> Nex<span>Cafe</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+            </ul>
+            <a href="#cta" class="btn btn-neon">Pre-ordenar</a>
+            <div class="menu-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Redefiniendo la <span class="gradient-text">Energía</span> <br>
+                El Futuro del Café
+            </h1>
+            <p class="hero-description">
+                Descubre una experiencia sensorial impulsada por la innovación y el diseño. Desde bebidas hiper-optimizadas hasta bio-cosméticos que renuevan tu piel.
+            </p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Explorar Derivados</a>
+                <a href="#benefits" class="btn btn-secondary"><i class='bx bxs-flask'></i> Ver la Ciencia</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="glow-ring"></div>
+            <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=800&ixlib=rb-4.0.3" alt="Taza de café moderna y futurista" class="hero-image floating">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2 class="section-title">Innovación en cada <span class="gradient-text">Formato</span></h2>
+        <p class="section-subtitle">Nuestros laboratorios han diseñado la perfección.</p>
+        
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="product-card glass-panel" data-tilt>
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?auto=format&fit=crop&q=80&w=600" alt="Bebida de Café">
+                    <div class="card-badge">Nootrópico</div>
+                </div>
+                <div class="card-content">
+                    <h3>NeoBrew Energy</h3>
+                    <p>Fusión de espresso originario con complejos vitamínicos B y Alfa-GPC. Concentración absoluta sin el choque de cafeína.</p>
+                    <div class="card-footer">
+                        <span class="price">$5.99</span>
+                        <a href="#cta" class="btn btn-small btn-neon"><i class='bx bx-cart-add'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="product-card glass-panel" data-tilt>
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1622485545719-f965d070b4be?auto=format&fit=crop&q=80&w=600" alt="Snack de Café">
+                    <div class="card-badge gold">Bio-Snack</div>
+                </div>
+                <div class="card-content">
+                    <h3>CaffeinBites</h3>
+                    <p>Barras proteicas inteligentes. Infusión de arábica, polvo de oro comestible y aminoácidos para recuperación muscular prolongada.</p>
+                    <div class="card-footer">
+                        <span class="price">$3.50</span>
+                        <a href="#cta" class="btn btn-small btn-neon"><i class='bx bx-cart-add'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="product-card glass-panel" data-tilt>
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&q=80&w=600" alt="Cosmético de Café">
+                    <div class="card-badge cyan">Derma-Tech</div>
+                </div>
+                <div class="card-content">
+                    <h3>DermaRoast Serum</h3>
+                    <p>Exfoliante y suero celular regenerativo. Los antioxidantes del grano verde trabajando a nivel molecular en tu piel.</p>
+                    <div class="card-footer">
+                        <span class="price">$28.00</span>
+                        <a href="#cta" class="btn btn-small btn-neon"><i class='bx bx-cart-add'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="benefits-grid">
+            <div class="benefit-img-wrapper">
+                <div class="neon-border"></div>
+                <img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&q=80&w=600" alt="Extracción de café con tecnología">
+            </div>
+            <div class="benefits-content">
+                <h2 class="section-title">La Ciencia detrás del <span class="gradient-text">Grano</span></h2>
+                <ul class="benefits-list">
+                    <li class="glass-list-item">
+                        <i class='bx bx-bolt-circle glow-icon'></i>
+                        <div class="list-text">
+                            <h4>Bio-Optimización</h4>
+                            <p>Modificamos el perfil bioquímico para otorgar energía sostenida por hasta 8 horas, libre de taquicardia.</p>
+                        </div>
+                    </li>
+                    <li class="glass-list-item">
+                        <i class='bx bx-leaf glow-icon'></i>
+                        <div class="list-text">
+                            <h4>Eco-Integración</h4>
+                            <p>Procesos de extracción de circuito cerrado impulsados por energía solar. Cero desperdicio, 100% sabor puro.</p>
+                        </div>
+                    </li>
+                    <li class="glass-list-item">
+                        <i class='bx bx-diamond glow-icon'></i>
+                        <div class="list-text">
+                            <h4>Calidad Premium</h4>
+                            <p>Nuestros granos son seleccionados mediante I.A. asegurando el estándar más alto en cada derivado.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">Experiencia <span class="gradient-text">Comprobada</span></h2>
+        
+        <div class="testimonials-slider">
+            <div class="testimonial-card glass-panel">
+                <div class="quote-icon"><i class='bx bxs-quote-alt-left'></i></div>
+                <p class="feedback">"NeoBrew ha cambiado mi forma de trabajar. La concentración que adquiero es increíble, totalmente el futuro del café."</p>
+                <div class="user">
+                    <img src="https://ui-avatars.com/api/?name=Elena+M&background=ffd700&color=0B090A&rounded=true" alt="User 1">
+                    <div class="user-info">
+                        <h4>Elena M.</h4>
+                        <span>Software Engineer</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card glass-panel">
+                <div class="quote-icon"><i class='bx bxs-quote-alt-left'></i></div>
+                <p class="feedback">"Nunca pensé que un cosmético a base de café dejara resultados tan inmediatos. El DermaRoast es indispensable en mi rutina."</p>
+                <div class="user">
+                    <img src="https://ui-avatars.com/api/?name=Carlos+V&background=ff7b00&color=0B090A&rounded=true" alt="User 2">
+                    <div class="user-info">
+                        <h4>Carlos V.</h4>
+                        <span>Diseñador</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card glass-panel">
+                <div class="quote-icon"><i class='bx bxs-quote-alt-left'></i></div>
+                <p class="feedback">"CaffeinBites son mi snack post-entrenamiento. Sabor a espresso, proteína de calidad y tecnología alimentaria."</p>
+                <div class="user">
+                    <img src="https://ui-avatars.com/api/?name=Sofia+L&background=00ffff&color=0B090A&rounded=true" alt="User 3">
+                    <div class="user-info">
+                        <h4>Sofía L.</h4>
+                        <span>Atleta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <div class="cta-box glass-panel">
+            <div class="glow-bg"></div>
+            <h2 class="cta-title">Despierta en el <span class="gradient-text">Futuro</span></h2>
+            <p>Accede a la fase exclusiva de pre-lanzamiento. Obtén un 20% de descuento en tu primer bundle de innovación cafetera.</p>
+            <form class="cta-form">
+                <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                <button type="submit" class="btn btn-neon">Solicitar Acceso Diferenciado</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class='bx bx-coffee-togo'></i> Nex<span>Cafe</span>
+                </a>
+                <p>Donde la mística del café ancestral se encuentra con la tecnología del mañana.</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Laboratorios</a></li>
+                    <li><a href="#">Sostenibilidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Soporte</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Políticas de Envío</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NexCafe. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Particles.js for subtle background effects -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
