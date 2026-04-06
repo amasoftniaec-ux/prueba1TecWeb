@@ -763,3 +763,68 @@ section {
         justify-content: center;
     }
 }
+
+/* --- Contact Section --- */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+}
+
+.contact-info {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.glow-icon-small {
+    font-size: 1.8rem;
+    color: var(--neon-cyan);
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+    margin-top: 5px;
+}
+
+.info-item h4 {
+    color: var(--gold);
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.info-item p {
+    color: var(--text-light);
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.contact-link {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.contact-map {
+    padding: 10px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.contact-map iframe {
+    border-radius: 16px;
+    filter: invert(90%) hue-rotate(180deg) brightness(85%) contrast(110%);
+    transition: filter 0.3s ease;
+}
+.contact-map iframe:hover {
+    filter: invert(90%) hue-rotate(180deg) brightness(95%) contrast(120%);
+}
+
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
